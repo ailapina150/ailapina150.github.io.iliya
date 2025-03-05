@@ -34,7 +34,7 @@
 }
 /*header */
 header{
-    background: url(/fon.webp) no-repeat center/cover;
+    background: url(fon.webp) no-repeat center/cover;
     width: 100%;
     height: 15rem;
     text-align: center;
