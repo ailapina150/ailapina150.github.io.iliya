@@ -60,7 +60,6 @@ main {
 }
 /*hero*/
 .hero{
-    wight: 100%
     background: #2f2f32;
     padding: 2rem;
 
@@ -80,7 +79,6 @@ main {
 }
 /*service*/
 .services{
-    width: 100%;
     background: lemonchiffon;
     color: black;
     font-size:var(--font-2_5);
@@ -115,7 +113,6 @@ ul li p{
 }
 /*gelary*/
 .gallery{
-    width: 100%;
     color:goldenrod;
     font-size:var(--font-2);
 }
@@ -130,7 +127,6 @@ ul li p{
 
 /*contact*/
 .contact{
-    width: 100%;
     background: lemonchiffon;
     color: black;
     font-size:var(--font-2);
