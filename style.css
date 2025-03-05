@@ -19,7 +19,7 @@
     --font-4: clamp(1.4rem , 0.8vw + 1.4rem, 1.5rem);
     --font-3: clamp(1.6rem, 1vw + 1.6rem, 1.8rem);
     --font-2_5: clamp(1.7rem, 1.5vw + 1.7rem, 2rem);
-    --font-2: clamp(1.8rem, 2vw + 1.8rem, 3rem);
+    --font-2: clamp(1.8rem, 2vw + 1.8rem, 2.5rem);
     --font-1: clamp(2rem, 3vw + 2rem, 3.5rem);
 }
 .goto{
@@ -35,14 +35,14 @@
 /*header */
 header{
     background: url(fon.webp) no-repeat center/cover;
-    width: 100%;
-    height: 15rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size:var(--font-3);
+    padding: 1rem;
+
 }
 
 nav a{
@@ -73,7 +73,7 @@ main {
     font-size:var(--font-2_5);
 }
 .photo{
-    width: 45%;
+    width: 50%;
     border: goldenrod 0.2rem solid;
     border-radius: 2rem;
 }
@@ -117,11 +117,10 @@ ul li p{
     font-size:var(--font-2);
 }
 .gallery .img{
-    width:clamp(25rem, 25rem, 90%);
-    height: 30rem;
+    width:45%;
     border: goldenrod 0.2rem solid;
     border-radius: 2rem;
-    margin: 1rem;
+    margin: 0.5rem;
 
 }
 
