@@ -20,7 +20,7 @@
     --font-3: clamp(1.6rem, 1vw + 1.6rem, 1.8rem);
     --font-2_5: clamp(1.7rem, 1.5vw + 1.7rem, 2rem);
     --font-2: clamp(1.8rem, 2vw + 1.8rem, 3rem);
-    --font-1: clamp(2rem, 3vw + 2rem, 4rem);
+    --font-1: clamp(2rem, 3vw + 2rem, 3.5rem);
 }
 .goto{
     position: fixed;
