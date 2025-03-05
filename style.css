@@ -73,7 +73,7 @@ main {
     font-size:var(--font-2_5);
 }
 .photo{
-    width: 50%;
+    width: clamp(15rem,50%,70%);
     border: goldenrod 0.2rem solid;
     border-radius: 2rem;
 }
@@ -117,7 +117,7 @@ ul li p{
     font-size:var(--font-2);
 }
 .gallery .img{
-    width:45%;
+    width: clamp(15rem,30%,70%);
     border: goldenrod 0.2rem solid;
     border-radius: 2rem;
     margin: 0.5rem;
