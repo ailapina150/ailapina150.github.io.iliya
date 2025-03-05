@@ -124,7 +124,7 @@ ul li p{
     font-size:var(--font-2);
 }
 .gallery .img{
-    width:clamp(90%, 3vw + 25rem, 35rem);
+    width:clamp(25rem, 25rem, 90%);
     height: 30rem;
     border: goldenrod 0.2rem solid;
     border-radius: 2rem;
